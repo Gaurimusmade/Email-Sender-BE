@@ -34,9 +34,6 @@ AI-powered email generation and sending service built with Node.js and Express.
      # Server Configuration
      PORT=5000
      NODE_ENV=development
-     
-     # CORS Configuration
-     FRONTEND_URL=http://localhost:3000
      ```
 
 3. **Gmail Setup (if using Gmail):**
@@ -142,4 +139,3 @@ npm run dev
 | `EMAIL_PASS` | SMTP password/app password | Yes |
 | `PORT` | Server port | No (default: 5000) |
 | `NODE_ENV` | Environment mode | No (default: development) |
-| `FRONTEND_URL` | Frontend URL for CORS | No (default: http://localhost:3000) |
